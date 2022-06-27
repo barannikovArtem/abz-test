@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.card-list {
+  text-align: center;
+
+  &__title {
+    font-size: $title-size;
+  }
+}
