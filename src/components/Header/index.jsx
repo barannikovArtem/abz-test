@@ -7,7 +7,7 @@ import './index.scss';
 const Header = () => {
   return (
     <header className="header">
-      <navbar className="header__navbar">
+      <nav className="header__navbar">
         <img src={Logo} alt="Logo" />
         <div className="buttons-container">
           <button className='header__btn' type='button'>
@@ -17,7 +17,7 @@ const Header = () => {
             Sign up
           </button>
         </div>
-      </navbar>
+      </nav>
       <div className="header__content">
         <h2 className='header__title'>
           Test assignment for front-end developer

@@ -5,6 +5,10 @@ export const getToken = async () =>
   .then(data => console.log(data))
   .catch(err => new Error(err))
 
-export const getUsers = async () => {
-  
-}
+export const getUsersFromServer = async(count, setter) => {
+    const response = fetch(`${MAIN_URL}users?page=1&count=${count}`)
+    .then(async(resp) => {
+      const data = await resp.json();
+      setter(data.users)
+    })
+  }
