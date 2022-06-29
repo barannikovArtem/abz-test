@@ -4,57 +4,51 @@ import './index.scss';
 
 const RegisterForm = () => {
   return (
-    <div className="form">
-      <form className="registrationForm">
+    <div className="form-container">
+      <form className="form">
         <h2>Working with POST request</h2>
         <div>
-          <label htmlFor="full_name">Full Name</label>
-          <input
-            type="string"
-            className="form-control"
-            name="full_name"
-            placeholder="Full Name"
-          />
+          <label>
+            <input
+              type="string"
+              className="form__input"
+              name="name"
+              placeholder="Your Name"
+            />
+          </label>
           <span className="help-block"></span>
         </div>
         <div>
-          <label htmlFor="email">Email address</label>
-          <input
-            type="email"
-            className="form-control"
-            name="email"
-            placeholder="Email address"
-          />
+          <label>
+            <input
+              type="email"
+              className="form__input"
+              name="email"
+              placeholder="Email"
+              />
+          </label>
           <span className="help-block"></span>
         </div>
         <div>
-          <label htmlFor="phone">Phone(enter only 10 digit number)</label>
-          <input
-            type="phone"
-            className="form-control"
-            name="phone"
-            placeholder="Phone Number"
-          />
+          <label>
+            <input
+              type="phone"
+              className="form__input"
+              name="phone"
+              placeholder="Phone"
+            />
+          </label>
           <span></span>
         </div>
         <div>
-          <label htmlFor="password">Password</label>
-          <input
-            type="password"
-            className="form-control"
-            placeholder="Password"
-            name="password"
-          />
+          <label>
+          </label>
           <span className="help-block"></span>
         </div>
         <div >
-          <label htmlFor="password_confirmation">Confirm Password</label>
-          <input
-            type="password"
-            className="form-control"
-            placeholder="Confirm Password"
-            name="password_confirmation"
-          />
+          <label>
+
+          </label>
           <span className="help-block"></span>
         </div>
         <button className="btn btn-primary">

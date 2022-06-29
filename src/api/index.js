@@ -5,12 +5,12 @@ export const getToken = async () =>
   .then(data => console.log(data))
   .catch(err => new Error(err))
 
-export const getUsersFromServer = async(count, setter1, setter2) => {
+export const getUsersFromServer = async(count, usersSetter, maxUserssetter) => {
     const response = fetch(`${MAIN_URL}users?page=1&count=${count}`)
     .then(async(resp) => {
       const data = await resp.json();
       console.log(data)
-      setter1(data.users)
-      setter2(data.total_users)
+      usersSetter(data.users)
+      maxUserssetter(data.total_users)
     })
   }
