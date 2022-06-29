@@ -1,22 +1,23 @@
 import React from 'react';
 
+import './index.scss';
+
 const UserCard = ({user}) => {
-  const {name, position, email, phone} = user
+  const {name, position, email, phone, photo} = user
 
   return (
       <div className='user-card'>
+        <img className='user-card__image' src={photo} alt="user-photo" />
         <p className="user-card__name">
           {name}
         </p>
-        <p className="user-card__position">
+        <div className="user-card__info">
           {position}
-        </p>
-        <p className="user-card__email">
+          <br/>
           {email}
-        </p>
-        <p className="user-card__phone">
+          <br/>
           {phone}
-        </p>
+        </div>
       </div>
   );
 };

@@ -2,8 +2,29 @@
 
 .card-list {
   text-align: center;
+  margin-bottom: 140px;
 
   &__title {
     font-size: $title-size;
+    margin-bottom: 50px;
+  }
+
+  &__btn {
+    min-width: 100px;
+    min-height: 34px;
+    background-color: $color-main;
+    border: none;
+    border-radius: 80px;
+    
+    &:hover {
+      background-color: $color-main-hover;
+    }
+    
+    &--disabled {
+      background-color: $color-grey-disabled;
+      &:hover {
+        background-color: $color-grey-disabled;
+      }
+    }
   }
 }

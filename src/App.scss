@@ -1,3 +1,9 @@
+@import './styles/variables.scss';
+
+.app {
+  background-color: $color-grey-background;
+}
+
 .container {
   padding: 0 16px;
 }

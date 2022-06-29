@@ -3,9 +3,10 @@
 .header {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   text-align: center;
   margin-bottom: 140px;
+
+  color: $color-white;
 
   &__navbar {
     display: flex;
@@ -13,27 +14,31 @@
     justify-content: space-between;
     height: 60px;
     padding: 0 16px;
+    background-color: $color-white;
   }
 
   &__btn {
-    width: 100px;
-    height: 34px;
-    background-color: $main-color;
+    min-width: 100px;
+    min-height: 34px;
+    background-color: $color-main;
     border: none;
     border-radius: 80px;
 
     &:hover {
-      background-color: $main-color-hover;
+      background-color: $color-main-hover;
     }
   }
 
   &__content {
+    box-sizing: border-box;
+    height: 500px;
     align-items: center;
-    flex-grow: 1;
     padding: 40px 16px;
-    background-image: url(../../assets/pexels-alexandr-podvalny-1227513.jpeg);
+    background-image: url(../../assets/bg.jpg);
     
-    background-size: cover;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   &__title {

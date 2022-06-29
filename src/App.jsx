@@ -2,6 +2,7 @@ import Header from './components/Header';
 import CardList from './components/CardList';
 
 import './App.scss';
+import RegisterForm from './components/RegisterForm';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <main className='app__main'>
         <CardList />
+        <RegisterForm />
       </main>
     </div>
   );
