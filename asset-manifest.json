@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/barannikovArtem/abz-test/static/css/main.32a8abaa.css",
-    "main.js": "/barannikovArtem/abz-test/static/js/main.db7fe007.js",
-    "static/media/bg.jpg": "/barannikovArtem/abz-test/static/media/bg.5237a05fe4ad745b34ed.jpg",
-    "static/media/Logo.svg": "/barannikovArtem/abz-test/static/media/Logo.8bb55362d01d55393ccc5476d96f0c14.svg",
-    "index.html": "/barannikovArtem/abz-test/index.html",
-    "main.32a8abaa.css.map": "/barannikovArtem/abz-test/static/css/main.32a8abaa.css.map",
-    "main.db7fe007.js.map": "/barannikovArtem/abz-test/static/js/main.db7fe007.js.map"
+    "main.css": "/abz-test/static/css/main.4a34fd5d.css",
+    "main.js": "/abz-test/static/js/main.930cba31.js",
+    "static/media/bg.jpg": "/abz-test/static/media/bg.5237a05fe4ad745b34ed.jpg",
+    "static/media/Logo.svg": "/abz-test/static/media/Logo.8bb55362d01d55393ccc5476d96f0c14.svg",
+    "index.html": "/abz-test/index.html",
+    "main.4a34fd5d.css.map": "/abz-test/static/css/main.4a34fd5d.css.map",
+    "main.930cba31.js.map": "/abz-test/static/js/main.930cba31.js.map"
   },
   "entrypoints": [
-    "static/css/main.32a8abaa.css",
-    "static/js/main.db7fe007.js"
+    "static/css/main.4a34fd5d.css",
+    "static/js/main.930cba31.js"
   ]
 }
