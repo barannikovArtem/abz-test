@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/barannikovArtem/abz-test/static/css/main.c0881f51.css",
+    "main.js": "/barannikovArtem/abz-test/static/js/main.d21333d5.js",
+    "static/media/pexels-alexandr-podvalny-1227513.jpeg": "/barannikovArtem/abz-test/static/media/pexels-alexandr-podvalny-1227513.be7665f876bbd9138501.jpeg",
+    "static/media/Logo.svg": "/barannikovArtem/abz-test/static/media/Logo.8bb55362d01d55393ccc5476d96f0c14.svg",
+    "index.html": "/barannikovArtem/abz-test/index.html",
+    "main.c0881f51.css.map": "/barannikovArtem/abz-test/static/css/main.c0881f51.css.map",
+    "main.d21333d5.js.map": "/barannikovArtem/abz-test/static/js/main.d21333d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0881f51.css",
+    "static/js/main.d21333d5.js"
+  ]
+}
