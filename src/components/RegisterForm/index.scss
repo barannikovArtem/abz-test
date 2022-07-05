@@ -1,7 +1,84 @@
-.form-container {
-
-}
+@import '../../styles/variables.scss';
 
 .form {
-  
+  text-align: center;
+
+  &__title {
+    font-size: 40px;
+    font-weight: 400;
+    color: $color-title-black;
+    margin-bottom: 50px;
+  }
+
+  &__input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 14px 16px;
+    border: 1px solid $color-border-gray;
+
+    &--phone {
+      margin-bottom: 25px;
+
+      &::after {
+        display: block;
+        content: '+38 (XXX) XXX - XX - XX';
+        width: 100%;
+        color: black
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 50px;
+    }
+  }
+
+  &__position-title {
+    margin-bottom: 11px;
+  }
+
+  &__position-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  &__position-label {
+    margin-bottom: 7px;
+  }
+
+  &__file-container {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid $color-border-gray;
+    padding: 14px;
+    text-align: left;
+  }
+
+  &__file {
+    &::after {
+      content: 'Upload your photo';
+    }
+  }
+
+  &__file-button {
+    padding: 10px;
+    color: white;
+    background-color: gray;
+    border: 1px solid black;
+    cursor: pointer;
+
+    &:hover {
+      background-color: darkgray;
+    }
+  }
+
+  &__file-span {
+    margin-left: 10px;
+
+  }
+
+  &__file-picker {
+    display: none;
+  }
 }
